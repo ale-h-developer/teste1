@@ -1,0 +1,12 @@
+body {
+    background-color: gold;
+    height: 100vh;
+    color: black;
+}
+
+.root {
+    margin: 30px auto;
+    width: 70%;
+    height: 400px;
+    background-color: chartreuse;
+}
