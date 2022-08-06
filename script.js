@@ -1,9 +1,12 @@
 alert("Hello World!!!");
 
-let rt = document.getElementsByClassName("root");
-
-rt.addEventListener("click", myFunction);
+let myContainer = document.getElementById("container");
 
 function myFunction() {
-    backgroundColor = "red";
+    console.log("Hello you!");
+    myContainer.innerHTML = "Hello Everybody!"
+    myContainer.style.backgroundColor = "red";
 }
+
+myContainer.addEventListener("click", myFunction);
+
