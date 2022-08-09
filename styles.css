@@ -1,12 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 body {
-    background-color: gold;
+    background: linear-gradient(45deg, orange, gold, yellow);
     height: 100vh;
     color: black;
+    font-family: 'lato', sans-serif;
+    font-size: 16px;
 }
 
 .container {
     margin: 30px auto;
     width: 70%;
     height: 400px;
-    background-color: chartreuse;
+    background: linear-gradient(45deg, rgba(83, 2, 94, 0.8), rgb(153, 9, 172, 0.8));
+    box-shadow: 10px 10px 10px 5px darkslategray;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align:center;
+    padding: 40px;
+}
+
+container > h1 {
+    font-weight: bold;
 }
